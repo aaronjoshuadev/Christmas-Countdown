@@ -1,0 +1,62 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Mooli&family=Poppins:wght@100;200;300;500;700&family=Quicksand:wght@300;400;500&family=Rubik+Iso&display=swap");
+* {
+  margin: 0%;
+  padding: 0%;
+}
+body {
+  background-image: url(mobile-bg.jpg);
+  font-family: 'Great Vibes', cursive;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  text-align: center;
+  color: #fff;
+
+}
+.main-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.content-wrapper {
+  display: flex;
+}
+h5 {
+  font-family: cursive;
+  font-weight: 400;
+  font-size: 20px;
+}
+.title {
+font-family: cursive;
+  margin: 10px 0px;
+  font-size: 40px;
+  font-weight: 500;
+}
+.col {
+  padding: 0px 30px;
+}
+.col h2 {
+  font-size: 50px;
+}
+h4 {
+  font-family: cursive;
+  font-weight: 400;
+}
+
+@media only screen and (max-width: 1680px ) {
+   body {
+   display: flex;
+   justify-content: center;
+  }
+}
+@media screen and (max-width: 768px ) {
+  body {
+    background-image: url(mobile-bg.jpg);
+    display: flex;
+    justify-content: center;
+  }
+
+  
+}
